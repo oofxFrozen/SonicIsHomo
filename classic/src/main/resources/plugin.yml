@@ -1,0 +1,39 @@
+name: gae
+version: ${project.version}
+main: help.me.Me
+authors: [oofxFrozen]
+description: :thinking;
+commands:
+  btp:
+    description: Teleport yourself to 1 of 2 blocks.
+    usage: /btp <diamond|gold>
+  sethealth:
+    description: Change your current health!
+    usage: /sethealth <amount>
+  showtext:
+    description: Shows title with your text.
+    usage: /showtext <title> <subtitle>
+  god:
+    description: Become a god!
+    usage: /god To ON|OFF godmode.
+  ke:
+    description: Choose kill effect.
+    usage: /ke
+  fly:
+    description: Wanna fly? This is special for you!
+    usage: /fly <player> (Without arguments makes you fly.)
+  addeffect:
+    description: Set the whole server into anarchy with adding an effect to every player!
+    usage: /addeffect <type> <duration> <modifier>
+  getmin:
+    description: Get minimum of your numbers!
+    usage: /getmin <number1> <number2> ... <numberN>
+  duplicates:
+    description: Get duplicates from your stroke!
+    usage: /duplicates <object1> <object2> ... <objectN>
+  addnum:
+    description: Add your num to cfg.
+    usage: /addnum <num>
+  getnum:
+    description: Get the first num from cfg.
+    usage: /getnum
